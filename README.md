@@ -1,3 +1,3 @@
-# Google-App-Scripts
+# Random Hacks
 
-Repository of some useful Google App Scripts I've written
+Repository of some useful hacks I've written or set up 
