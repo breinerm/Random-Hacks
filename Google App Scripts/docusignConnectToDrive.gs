@@ -86,7 +86,7 @@ function uploadPDFToDrive(x){
       var bytes = Utilities.base64Decode(docpdfs[j].getChildText('PDFBytes',ns));
       var blob = Utilities.newBlob(bytes, "application/pdf", fileName);
       blobSet.add(blob);
-      if(newSubject == subject && (subject == 'Documents for your DocuSign Signature' || subject == 'Updater Documents for your Docusign Signature')){
+      if(newSubject == subject && (subject == 'Documents for your DocuSign Signature')){
         newSubject = fileName;
       } else if(newSubject != subject){
         newSubject = newSubject+'; '+fileName;
